@@ -1,0 +1,98 @@
+/* Customize the styling as needed */
+.productive-books-form {
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#e2e7e6;
+    margin-bottom:10px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type='date'],
+  input[type='text'],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkboxes,
+  .radio-buttons {
+    margin-bottom: 15px;
+  }
+  
+
+
+/* Add more responsiveness for smaller devices */
+@media (max-width: 768px) {
+  .productive-books-form {
+    max-width: 80%;
+  }
+}
+
+/* For devices up to 576px width (phones) */
+@media (max-width: 576px) {
+  .productive-books-form {
+    max-width: 90%;
+  }
+
+  /* Adjust input sizes and button font for smaller screens */
+  input[type='text'],
+  input[type='date'],
+  select {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .productive-books-form {
+    max-width: 70%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 834px) {
+  .productive-books-form {
+    max-width: 80%;
+  }
+}
+
+
+/* For Pixel 7 */
+@media (min-width: 411px) and (max-width: 731px) {
+  .productive-books-form {
+    max-width: 85%;
+  }
+}
+
