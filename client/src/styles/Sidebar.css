@@ -23,3 +23,10 @@
     color: white;
     cursor: pointer;
   }
+a{
+    text-decoration: none;
+  }
+
+  b{
+    font-size: 1.25rem;
+  }
