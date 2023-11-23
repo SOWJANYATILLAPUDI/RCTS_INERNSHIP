@@ -11,6 +11,8 @@
   color:rgb(255,174,0);
   align-items:center;
   justify-content: space-evenly;
+  padding-top:15px;   
+  padding-left:2.5px;
 }
 
 .navbar{
