@@ -34,7 +34,7 @@ function Footer() {
         <a href="/" className='nav-link'>Advertise your books</a>
       </ul>
       <ul>
-        <p>Social</p>
+        <p>Social Handles</p>
         <a href="https://www.youtube.com" className='nav-link'><FaYoutube/>  <b>Youtube</b></a>
         <a href="https://www.instagram.com" className='nav-link'><FaInstagram/>  <b>Instagram</b></a>
         <a href="https://www.twitter.com" className='nav-link'><FaSquareXTwitter/>  <b>Twitter</b></a>
